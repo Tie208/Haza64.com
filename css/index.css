@@ -1,0 +1,176 @@
+@font-face {
+	font-family: Minecraft;
+	src: url('../MinecraftRegular.otf');
+}
+
+body {
+	margin: 0;
+	overflow: hidden;
+}
+.bg-image {
+	position: absolute;
+	background-image: url("../img/background.png");
+	filter: blur(0.2vw);
+	-webkit-filter: blur(0.2vw);
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+	transform: scale(1.1);
+	background-position: center;
+	background-size: cover;
+}
+.content-holder {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	height: 80%;
+	width: 100%;
+	max-height: 80%;
+	max-width: 50%;
+	display: flex;
+	flex-flow: column;
+}
+.haza-title {
+	width: 100%;
+	flex-basis: 60%;
+}
+.haza-title img {
+	width: 100%;
+}
+.nav-section {
+	flex-basis: 40%;
+	max-height: 40%;
+}
+.navigation {
+	position: relative;
+	top: 50%;
+	transform: translate(0,-50%);
+	height: 20%;
+	max-height: 20%;
+	width: 100%;
+	background-color: white;
+	border-radius: 1vw;
+	padding: 0.5vw;
+}
+.navigation ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	position: relative;
+	margin: 0;
+	padding-left: 5%;
+	padding-right: 5%;
+	list-style: none;
+	text-align: center;
+	height: 100%;
+	max-height: 100%;
+}
+.navigation img {
+	height: auto;
+	max-height: 100%;
+	cursor: pointer;
+	transition: all 0.1s;
+	max-width: 100%;
+}
+.navigation img:hover {
+	filter: drop-shadow(0 0 0.1vw rgba(0.1,0.1,0.1,0.3));
+}
+.navigation li {
+	padding: 0;
+	height: 100%;
+	max-height: 100%;
+	min-width: 0;
+	width: 100%;
+}
+
+.navigation1 {
+	position: relative;
+	top: 5%;
+	transform: translate(0,-50%);
+	height: 20%;
+	max-height: 20%;
+	width: 100%;
+	background-color: white;
+	border-radius: 1vw;
+	padding: 0.5vw;
+}
+.navigation1 ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	position: relative;
+	margin: 0;
+	padding-left: 5%;
+	padding-right: 5%;
+	list-style: none;
+	text-align: center;
+	height: 100%;
+	max-height: 100%;
+}
+.navigation1 img {
+	height: auto;
+	max-height: 100%;
+	cursor: pointer;
+	transition: all 0.1s;
+	max-width: 100%;
+}
+.navigation1 img:hover {
+	filter: drop-shadow(0 0 0.1vw rgba(0.1,0.1,0.1,0.3));
+}
+.navigation1 li {
+	padding: 0;
+	height: 100%;
+	max-height: 100%;
+	min-width: 0;
+	width: 100%;
+}
+
+.schedule {
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%,0);
+	cursor: pointer;
+	color: black;
+	display: flex;
+	flex-flow: row;
+	background-color: white;
+	border-radius: 1vw;
+	padding: 1vw;
+	width: 40%;
+	transition: all 0.3s;
+}
+.schedule:hover img {
+	filter: drop-shadow(0 0 0.1vw rgba(0.1,0.1,0.1,0.3));
+}
+.schedule:hover p {
+	filter: drop-shadow(0 0 0.1vw rgba(0.1,0.1,0.1,0.3));
+}
+.schedule img {
+	display: inline-block;
+	height: 100%;
+	width: 10%;
+}
+.schedule p {
+	position: relative;
+	top: 50%;
+	display: inline-block;
+	font-size: 2vw;
+	height: 2vw;
+	font-family: Minecraft;
+	margin: 0;
+	margin-left: 1vw;
+}
+#splash {
+	position: absolute;
+	margin: 0;
+	top: 7%;
+	transform: rotate(-10deg);
+	color: yellow;
+	font-family: Minecraft;
+	text-shadow: 0.3vw 0.3vw black;
+}
+#splash img {
+	max-height: 100%;
+}
+
